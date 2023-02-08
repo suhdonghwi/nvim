@@ -81,12 +81,6 @@ return packer.startup(function(use)
   }
 
   use {
-    'akinsho/bufferline.nvim',
-    branch = 'main',
-    config = req('bufferline')
-  }
-
-  use {
     'nvim-telescope/telescope.nvim',
     requires = { { 'nvim-lua/plenary.nvim' } },
     config = req('telescope')
