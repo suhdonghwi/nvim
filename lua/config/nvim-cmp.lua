@@ -12,9 +12,9 @@ cmp.setup({
     end,
   },
   mapping = {
-    ['<CR>'] = cmp.mapping.confirm({ select = true }),
-    ['<Down>'] = cmp.mapping.select_next_item(),
-    ['<Up>'] = cmp.mapping.select_prev_item(),
+        ['<CR>'] = cmp.mapping.confirm({ select = true }),
+        ['<Down>'] = cmp.mapping.select_next_item(),
+        ['<Up>'] = cmp.mapping.select_prev_item(),
   },
   formatting = {
     format = lspkind.cmp_format({
